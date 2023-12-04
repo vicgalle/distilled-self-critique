@@ -1,4 +1,4 @@
-# distilled-self-critique
+# distilled Self-Critique
 Code for the paper "Distilled Self-Critique of LLMs with Synthetic Data: a Bayesian Perspective".
 
 ## Synthetic Data Generation (self-critique)
