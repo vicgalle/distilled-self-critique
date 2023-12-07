@@ -29,7 +29,7 @@ def generate(prompt, context=None):
 
 
 def compute_metrics(text):
-    pred = pipe(text, return_all_scores=True)[0]
+    pred = int(pipe(text)[0]["label"][6]) + 1  # score from 1 to 5
     return pred
 
 
