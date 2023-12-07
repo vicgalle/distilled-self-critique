@@ -28,8 +28,7 @@ These are the steps for the Gibbs sampling chain described in the paper. In thes
 
 Once you have generated the synthetic data, you can finetune the model over a training split of the synthetic data. You may filter the data first using the reward scores of the revised and original sample (acceptance step in the paper). This is recommended as it improves the results over the test set of prompts.
 
-Code for the self-distillation will be released soon.
-
+Run the notebook [`run_distillation.ipynb`](run_distillation.ipynb) to self-distil the model on the synthetic data generated in the previous seep. The notebook uses the `sentiment` task an example, but it can be easily adapted to the other tasks.
 
 ### Citation
 

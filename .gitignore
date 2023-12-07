@@ -6,6 +6,9 @@ __pycache__/
 # MacOS
 .DS_Store
 
+checkpoints
+wandb
+
 
 # C extensions
 *.so
