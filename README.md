@@ -1,5 +1,7 @@
 # distilled Self-Critique
-Code for the paper "Distilled Self-Critique of LLMs with Synthetic Data: a Bayesian Perspective", https://arxiv.org/abs/2312.01957 
+Code for the paper "Distilled Self-Critique of LLMs with Synthetic Data: a Bayesian Perspective", under review at ICLR 2024 (TinyPapers Track): https://arxiv.org/abs/2312.01957 
+
+> This work proposes an interpretation of RLAIF as Bayesian inference by introducing distilled Self-Critique (dSC), which refines the outputs of a LLM through a Gibbs sampler that is later distilled into a fine-tuned model. Only requiring synthetic data, dSC is exercised in experiments regarding safety, sentiment, and privacy control, showing it can be a viable and cheap alternative to align LLMs
 
 ## Synthetic Data Generation (self-critique)
 
